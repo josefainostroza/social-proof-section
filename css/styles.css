@@ -21,6 +21,241 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'League Spartan',sans-serif;
   color: aliceblue;
+}
+p,h1,h2,h3{
+  margin: 0;
+}
+
+
+@media screen and (width>768px){
+  .flexminicard{
+    display: flex;
+    margin-top: 145px;
+    margin-right: 260px;
+  }
+  
+}
+.title{
+  width: 327px;
+  height: 102px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #512051;
+  text-align: center;
+  margin-top: 82px;
+  margin-left: 40px;
+  }
+  @media screen and (width>768px){
+    .title{
+    font-size: 56px;
+    width: 445px;
+    height: 154px;
+    margin-top: 0px;
+    margin-left: 165px;
+    text-align: left;
+    }
+    
+  }
+
+.text{
+  width: 327px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 19px;
+  color: #927B91;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+@media screen and (width>768px){
+  .text{
+    width: 445px;
+  height: 75px;
+  margin-top: 30px;
+  margin-left: 165px;
+  text-align: left;
+  }
+  
+}
+
+.image-star{
+  width: 16.55px;
+  height: 15.77px;
+  margin-right: 8.45px;
+  margin-top: 16px;
+}
+.minicard{
+  width: 327px;
+  height: 78px;
+  border-radius: 8px;
+  background-color: #F7F2F7;
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+@media screen and (width>768px){
+  .minicard{
+    width: 445px;
+    height: 56px;
+    display: flex;
+    margin-left: 125px;
+    margin-bottom: 16px;
+  }
+  
+}
+.minicard2{
+  width: 327px;
+  height: 78px;
+  border-radius: 8px;
+  background-color: #F7F2F7;
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+@media screen and (width>768px){
+  .minicard2{
+    width: 445px;
+    height: 56px;
+    display: flex;
+    margin-left: 173px;
+    margin-bottom: 16px;
+  }
+  
+}
+.minicard3{
+  width: 327px;
+  height: 78px;
+  border-radius: 8px;
+  background-color: #F7F2F7;
+  margin-left: 40px;
+  margin-bottom: 16px;
+}
+@media screen and (width>768px){
+  .minicard3{
+    width: 445px;
+    height: 56px;
+    display: flex;
+    margin-left: 220px;
+    margin-bottom: 16px;
+  }
+  
+}
+.star{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (width>768px){
+  .star{
+    margin-left: 20.09px;
+    margin-bottom: 20.13px;
+  }
+  
+}
+.textcard{
+  font-weight: 700;
+  font-size: 17px;
+  color: #512051;
+  text-align: center;
+  margin-top: 15.23px;
+}
+@media screen and (width>768px){
+  .textcard{
+    margin-left: 32.45px;
+    margin-bottom: 20px;
+  }
+  
+}
+.cardopinions{
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  background-color: #512051;
+  margin-left: 40px;
+  margin-top: 49px;
+}
+@media screen and (width>768px){
+  .cardopinions{
+  width: 350px;
+  height: 234px;
+  margin-top: 71px;
+  margin-left: 165px;
+}
+  
+}
+@media screen and (width>768px){
+  .flex{
+    display: flex;
+  }
+  
+}
+
+.image1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 32px;
+  margin-right: 23px;
+}
+.titlecard{
+  font-weight: 700;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+.subtitlecard{
+  font-weight: 400;
+  font-size: 17px;
+  color: #EE69A4;
+  margin-top: 4px;
+}
+.flexcard{
+display: flex;
+}
+.titleandsub{
+  display: flex;
+flex-direction: column;
+margin-top: 40px;
+}
+.text2{
+  width: 263px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #fff;
+  margin-top: 23px;
+  margin-left: 32px;
+}
+.cardopinions2{
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  background-color: #512051;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+@media screen and (width>768px){
+  .cardopinions2{
+  width: 350px;
+  height: 234px;
+  margin-left: 30px;
+  margin-top: 87px;
+}
+  
+}
+.cardopinions3{
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  background-color: #512051;
+  margin-left: 40px;
+  margin-top: 16px;
+  margin-bottom: 99px;
+}
+@media screen and (width>768px){
+  .cardopinions3{
+  width: 350px;
+  height: 234px;
+  margin-left: 30px;
+  margin-top: 103px;
+  margin-bottom: 100px;
+}
 }
