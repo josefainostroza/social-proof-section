@@ -20,24 +20,27 @@ ul {
   margin-bottom: 0px;
 }
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  font-family: 'League Spartan',sans-serif;
+  font-family: 'League Spartan', sans-serif;
   color: aliceblue;
 }
-p,h1,h2,h3{
+p,
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
-
-@media screen and (width>768px){
-  .flexminicard{
+@media screen and (width>768px) {
+  .flexminicard {
     display: flex;
     margin-top: 145px;
-    margin-right: 260px;
   }
-  
 }
-.title{
+.title {
   width: 327px;
   height: 102px;
   font-weight: 700;
@@ -46,126 +49,119 @@ p,h1,h2,h3{
   text-align: center;
   margin-top: 82px;
   margin-left: 40px;
-  }
-  @media screen and (width>768px){
-    .title{
+}
+@media screen and (width>768px) {
+  .title {
     font-size: 56px;
     width: 445px;
     height: 154px;
     margin-top: 0px;
     margin-left: 165px;
     text-align: left;
-    }
-    
   }
+}
 
-.text{
+.text {
   width: 327px;
   height: 100px;
   font-weight: 500;
   font-size: 19px;
-  color: #927B91;
+  color: #927b91;
   text-align: center;
   margin-top: 30px;
   margin-left: 40px;
 }
-@media screen and (width>768px){
-  .text{
+@media screen and (width>768px) {
+  .text {
     width: 445px;
-  height: 75px;
-  margin-top: 30px;
-  margin-left: 165px;
-  text-align: left;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 165px;
+    text-align: left;
   }
-  
 }
 
-.image-star{
+.image-star {
   width: 16.55px;
   height: 15.77px;
   margin-right: 8.45px;
   margin-top: 16px;
 }
-.minicard{
+.minicard {
   width: 327px;
   height: 78px;
   border-radius: 8px;
-  background-color: #F7F2F7;
+  background-color: #f7f2f7;
   margin-left: 40px;
   margin-bottom: 16px;
 }
-@media screen and (width>768px){
-  .minicard{
+@media screen and (width>768px) {
+  .minicard {
     width: 445px;
     height: 56px;
     display: flex;
     margin-left: 125px;
     margin-bottom: 16px;
   }
-  
 }
-.minicard2{
+.minicard2 {
   width: 327px;
   height: 78px;
   border-radius: 8px;
-  background-color: #F7F2F7;
+  background-color: #f7f2f7;
   margin-left: 40px;
   margin-bottom: 16px;
 }
-@media screen and (width>768px){
-  .minicard2{
+@media screen and (width>768px) {
+  .minicard2 {
     width: 445px;
     height: 56px;
     display: flex;
     margin-left: 173px;
     margin-bottom: 16px;
   }
-  
 }
-.minicard3{
+.minicard3 {
   width: 327px;
   height: 78px;
   border-radius: 8px;
-  background-color: #F7F2F7;
+  background-color: #f7f2f7;
   margin-left: 40px;
   margin-bottom: 16px;
 }
-@media screen and (width>768px){
-  .minicard3{
+@media screen and (width>768px) {
+  .minicard3 {
     width: 445px;
     height: 56px;
     display: flex;
     margin-left: 220px;
     margin-bottom: 16px;
   }
-  
 }
-.star{
+.star {
   display: flex;
   justify-content: center;
 }
-@media screen and (width>768px){
-  .star{
+@media screen and (width>768px) {
+  .star {
     margin-left: 20.09px;
     margin-bottom: 20.13px;
   }
-  
 }
-.textcard{
+.textcard {
   font-weight: 700;
   font-size: 17px;
   color: #512051;
   text-align: center;
   margin-top: 15.23px;
 }
-@media screen and (width>768px){
-  .textcard{
+@media screen and (width>768px) {
+  .textcard {
     margin-left: 32.45px;
     margin-bottom: 20px;
   }
-  
 }
-.cardopinions{
+.cardopinions {
   width: 327px;
   height: 248px;
   border-radius: 8px;
@@ -173,23 +169,21 @@ p,h1,h2,h3{
   margin-left: 40px;
   margin-top: 49px;
 }
-@media screen and (width>768px){
-  .cardopinions{
-  width: 350px;
-  height: 234px;
-  margin-top: 71px;
-  margin-left: 165px;
+@media screen and (width>768px) {
+  .cardopinions {
+    width: 350px;
+    height: 234px;
+    margin-top: 71px;
+    margin-left: 165px;
+  }
 }
-  
-}
-@media screen and (width>768px){
-  .flex{
+@media screen and (width>768px) {
+  .flex {
     display: flex;
   }
-  
 }
 
-.image1{
+.image1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -197,26 +191,26 @@ p,h1,h2,h3{
   margin-left: 32px;
   margin-right: 23px;
 }
-.titlecard{
+.titlecard {
   font-weight: 700;
   font-size: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.subtitlecard{
+.subtitlecard {
   font-weight: 400;
   font-size: 17px;
-  color: #EE69A4;
+  color: #ee69a4;
   margin-top: 4px;
 }
-.flexcard{
-display: flex;
-}
-.titleandsub{
+.flexcard {
   display: flex;
-flex-direction: column;
-margin-top: 40px;
 }
-.text2{
+.titleandsub {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.text2 {
   width: 263px;
   font-weight: 500;
   font-size: 17px;
@@ -224,7 +218,7 @@ margin-top: 40px;
   margin-top: 23px;
   margin-left: 32px;
 }
-.cardopinions2{
+.cardopinions2 {
   width: 327px;
   height: 248px;
   border-radius: 8px;
@@ -232,16 +226,15 @@ margin-top: 40px;
   margin-left: 40px;
   margin-top: 16px;
 }
-@media screen and (width>768px){
-  .cardopinions2{
-  width: 350px;
-  height: 234px;
-  margin-left: 30px;
-  margin-top: 87px;
+@media screen and (width>768px) {
+  .cardopinions2 {
+    width: 350px;
+    height: 234px;
+    margin-left: 30px;
+    margin-top: 87px;
+  }
 }
-  
-}
-.cardopinions3{
+.cardopinions3 {
   width: 327px;
   height: 248px;
   border-radius: 8px;
@@ -250,12 +243,12 @@ margin-top: 40px;
   margin-top: 16px;
   margin-bottom: 99px;
 }
-@media screen and (width>768px){
-  .cardopinions3{
-  width: 350px;
-  height: 234px;
-  margin-left: 30px;
-  margin-top: 103px;
-  margin-bottom: 100px;
-}
+@media screen and (width>768px) {
+  .cardopinions3 {
+    width: 350px;
+    height: 234px;
+    margin-left: 30px;
+    margin-top: 103px;
+    margin-bottom: 100px;
+  }
 }
